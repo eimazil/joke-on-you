@@ -48,7 +48,6 @@ function Jokes() {
           />
         ))}
       </div>
-      a
     </div>
   );
 }
