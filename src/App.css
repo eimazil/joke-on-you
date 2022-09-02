@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #355c7d;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -37,8 +37,12 @@
   }
 }
 
+.jokes-container {
+  margin-bottom: 50px;
+}
+
 .all-jokes {
-  width: 800px;
+  width: 1000px;
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -49,5 +53,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-bottom: 3px dotted white;
+  border: 3px solid white;
+  padding: 20px;
+}
+
+.main-title {
+  margin-bottom: 50px;
 }
