@@ -37,7 +37,6 @@ function Jokes() {
   return (
     <div className="jokes-container">
       <h1 className="main-title">Best programmer jokes</h1>
-
       <div className="all-jokes">
         {items.map((joke, i) => (
           <SingleJoke
@@ -49,6 +48,7 @@ function Jokes() {
           />
         ))}
       </div>
+      a
     </div>
   );
 }
