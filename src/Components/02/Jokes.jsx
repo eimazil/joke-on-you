@@ -35,8 +35,10 @@ function Jokes() {
   }
 
   return (
-    <div>
-      <h1>Best programmer jokes</h1>
+    <div className="jokes-container">
+      <h1 className="main-title">Best programmer jokes</h1>
+      <input type="text" />
+
       <div className="all-jokes">
         {items.map((joke, i) => (
           <SingleJoke
