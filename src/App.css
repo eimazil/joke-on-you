@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.all-jokes {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.joke {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px dotted white;
+}
